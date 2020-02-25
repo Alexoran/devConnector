@@ -9,13 +9,17 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    avatar: {
+    password: {
+        type: String,
+        required: true
+    },
+    avatar: {  
         type: String
-    }
+    },
     date: {
-        type: Data,
-        default: Data.now
+        type: Date,
+        default: Date.now
     }
 })
 
-module.exports = User = mongoose.model('user', userScheman)
+module.exports = User = mongoose.model('user', UserSchema)
