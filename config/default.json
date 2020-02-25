@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://Alexo:sl4508@devconnector-v37jb.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://Alexo:sl4508@devconnector-v37jb.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secrettoken"
 }
