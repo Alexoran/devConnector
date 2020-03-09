@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://Alexo:sl4508@devconnector-v37jb.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "secrettoken"
+    "jwtSecret": "secrettoken",
+    "githubClientId": "d032f5edc1c9ffd32625",
+    "githubSecret": "b91e4f0ff60f3d21661b5b0e55cb0f41ed9e00ec"
 }
